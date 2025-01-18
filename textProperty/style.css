@@ -1,0 +1,110 @@
+ p{  /* Text align is basically left, right and center. In english/hindi left is start and right is end */
+    text-align:left;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline double;
+}
+h2 {
+    text-align: left;
+    
+}
+ .one {
+     text-decoration: underline;
+ }
+
+.two { 
+  text-decoration: underline dotted;
+}
+
+.three {
+    text-decoration: underline dotted red;
+}
+
+.four {
+    text-decoration: blue wavy underline;
+}
+
+.five {
+    text-decoration: underline overline greenyellow;
+}
+
+.six {
+    text-decoration: underline overline;
+}
+
+.seven {
+    text-decoration: overline;
+}
+
+.eight {
+    text-decoration: line-through;
+}
+
+.nine {
+    text-decoration: underline line-through;
+}
+
+.ten {
+    font-weight: normal;
+}
+
+.eleven {
+    font-weight: lighter;
+}
+
+.twelve {
+    font-weight: bold;
+}
+
+.thirteen {
+    font-weight: bolder;
+}
+  /* 100-900 , 100 is lighter and 900 is bolder , 100-400 lighter , afte 400 bolder */
+
+
+
+  .fouteen {
+    font-weight: 300;
+}
+          
+.fifteen {
+    font-weight: 700;
+}
+
+#one{
+    font-family: Arial, ;
+}
+
+#two {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* we can save height between lines */
+#three {
+    line-height: 10px;
+}
+
+#four {
+    line-height: 20px;
+}
+
+#five {
+    line-height: normal;
+}
+
+#six {
+    text-transform: lowercase;
+}
+
+#seven {
+    text-transform: uppercase;
+}
+
+#eight {
+    text-transform: capitalize;
+}
+
+#nine {
+    text-transform: none;
+}
