@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* % unit */
+        .one {
+            border: 2px solid crimson;
+            background-color: pink;
+            width: 50%; /* Iski width body ka full space ka 50% ho jayega */
+        }
+
+        .parent {
+            margin-top: 20px;
+            border: 2px solid blue;
+            background-color: skyblue;
+        }
+        .child {
+            border: 2px solid black;
+            background-color: greenyellow;
+           /* We only can see the child part becoz ye parent part ke upar overlap krr chuka hai */
+        }
+        
+
+        .parent2 {
+            margin-top: 20px;
+            border: 2px solid red;
+            background-color: mediumspringgreen;
+        }
+        .child2 {
+            border: 2px solid purple;
+            background-color: mediumturquoise;
+            width: 50%;
+           /* Now we only can see the  parent part becoz humne child part ko 50% krr dia hai */
+        }
+
+        .parent3 {
+            margin-top: 20px;
+            border: 2px solid red;
+            background-color: mediumspringgreen;
+            width: 50%;
+        }
+        .child3 {
+            
+            border: 2px solid purple;
+            background-color: mediumturquoise;
+            width: 40%;
+            /* Idhar humne parent ko 50% liya hai toh pehle ye screen ka 50% aayega phir child wala part parent ka 50% 
+            se 40% aayega */
+           
+        }
+
+        .two {
+            margin-top: 20px;
+            border: 2px solid darkorange;
+            background-color: aquamarine;
+            height: 40vh;
+            width: 50vw;
+            /* vh & vw is viewcode height and width ye hamare screen ke hisab se hum jo size choose krte hain usi ke hisab 
+            se leta hai ye 10% se leke ke 100% tkk le skta hai */
+        }
+
+        /* px units */
+        .three {
+            font-size: 100px;
+            border: 2px solid brown;
+            margin-top: 10px;
+        }
+
+        /* em units = It will multiply with its parent ex we create two div one is parent and one child agar humne parent ki size ko 10px 
+        dia hai aur child ko 10em then it will multiply and became 100px */ 
+        .four {
+            font-size: 10px;
+        }
+        .box1 {
+            font-size: 20em;
+        }
+
+        /* rem units = It will multiply with the screens default size which is 16 . ex agar hum font size 10 dete hai then it will
+        multiply with 16 */
+        p {
+            border: 2px solid purple;
+            margin-top: 10px;
+            font-size: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">Welcome</div>
+
+    <div class="parent">
+        <div class="child">Hello there!</div>
+    </div>
+
+    <div class="parent2">
+        <div class="child2">Hello there! Ananya</div>
+    </div>
+
+    <div class="parent3">
+        <div class="child3">Hello there! Ananya</div>
+    </div>
+
+    <div class="two">Ananya Mohapatra</div>
+
+    <div class="three">Welcome to code</div>
+
+    <div class="four">
+        <div class="box1">
+            Hello
+        </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
