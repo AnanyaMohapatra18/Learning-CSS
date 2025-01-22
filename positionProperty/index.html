@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div {
+            border: 3px solid black;
+        }
+
+        img {
+            margin: 5px;
+        }
+
+        /* Relative positioning property use krr ke hum isko left right top and bottom se move krr skte hai but iss
+        image ka jo space tha woh waise hi maintain rhega. */
+        .image1 {  
+            position: relative;
+            top: 50px;
+            bottom: 40px;
+            right: 70px;
+            left: 65px;
+        }
+
+        .container2 {  /* it is good ki hum hamesa position ko relative set krr ke rakhe */
+            position: relative;
+            margin-top: 70px;
+           
+        }
+        
+        /* Absolute positioning */
+        .image5 { /* Image 4 ke upar 5 over lap krr jaegi 4 whi hoga lekin nhi dikhega height add krne se hum dekh skte hai */
+            position: absolute;
+            height: 60px; /* Now we can see */
+        }
+
+        .container3 {  /* it is good ki hum hamesa position ko relative set krr ke rakhe */
+            position: relative;
+            margin-top: 70px;
+            height: 5000px;
+            background-color: aqua;
+           
+        }
+
+        .container4 {
+            background-color: blueviolet;
+            height: 4000px;
+        }
+
+        .image10 {
+            position: fixed;
+            bottom: 100px;
+            /* fixed positioning use krne se image10 hamesa window ke liye fix rhega */
+            
+        }
+
+        .image12 {
+            position: sticky; /* sticky positioning use krne se image12 apne parent container tkk hi sticky rhega */
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <img 
+        src="picture1.jpeg" 
+        alt="pic1"
+        height="200px"
+        width="200px"
+        class="image1"
+        >
+
+        <img 
+        src="picture2.jpeg" 
+        alt="pic2"
+        height="200px"
+        width="200px"
+        class="image2"
+        >
+
+        <img 
+        src="picture3.jpeg" 
+        alt="pic3"
+        height="200px"
+        width="200px"
+        class="image3"
+        >
+
+        <img 
+        src="picture4.jpeg" 
+        alt="pic4"
+        height="200px"
+        width="200px"
+        class="image4"
+        >
+    </div>
+
+    <div class="container2">
+     
+        <img 
+        src="picture1.jpeg" 
+        alt="pic5"
+        height="200px"
+        width="200px"
+        class="image5"
+        >
+
+        <img 
+        src="picture2.jpeg" 
+        alt="pic6"
+        height="200px"
+        width="200px"
+        class="image6"
+        >
+
+        <img 
+        src="picture3.jpeg" 
+        alt="pic7"
+        height="200px"
+        width="200px"
+        class="image7"
+        >
+
+        <img 
+        src="picture4.jpeg" 
+        alt="pic8"
+        height="200px"
+        width="200px"
+        class="image8"
+        >
+    </div>
+
+    <div class="container3">
+     
+        <img 
+        src="picture1.jpeg" 
+        alt="pic9"
+        height="200px"
+        width="200px"
+        class="image9"
+        >
+
+        <img 
+        src="picture2.jpeg" 
+        alt="pic10"
+        height="200px"
+        width="200px"
+        class="image10"
+        >
+
+        <img 
+        src="picture3.jpeg" 
+        alt="pic11"
+        height="200px"
+        width="200px"
+        class="image11"
+        >
+
+        <img 
+        src="picture4.jpeg" 
+        alt="pic12"
+        height="200px"
+        width="200px"
+        class="image12"
+        >
+    </div>
+
+    <div class="container4"></div>
+</body>
+</html>
