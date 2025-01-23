@@ -1,0 +1,171 @@
+.container {
+    background-color: burlywood;
+    border: 5px solid black ;
+    margin: 2px;
+    padding: 2px;
+    display: flex; 
+    flex-flow: column; 
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: aqua;
+}
+#box3 {
+    background-color: brown;
+}
+#box4 {
+    background-color: aquamarine;
+}
+#box5 {
+    background-color: darkgreen;
+}
+#box6 {
+    background-color: yellow;
+}
+#box7 {
+    background-color: darkviolet;
+}
+#box8 {
+    background-color: hotpink;
+}
+
+.container2 {
+    background-color: burlywood;
+    border: 5px solid black ;
+    margin: 2px;
+    padding: 2px;
+    display: flex; 
+    flex-flow: column-reverse; 
+}
+
+.box2 {
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: aqua;
+}
+#box3 {
+    background-color: brown;
+}
+#box4 {
+    background-color: aquamarine;
+}
+#box5 {
+    background-color: darkgreen;
+}
+#box6 {
+    background-color: yellow;
+}
+#box7 {
+    background-color: darkviolet;
+}
+#box8 {
+    background-color: hotpink;
+}
+
+.container3 {
+    background-color: burlywood;
+    border: 5px solid black ;
+    margin: 2px;
+    padding: 2px;
+    display: flex; 
+    flex-flow: row-reverse nowrap; 
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: aqua;
+}
+#box3 {
+    background-color: brown;
+}
+#box4 {
+    background-color: aquamarine;
+}
+#box5 {
+    background-color: darkgreen;
+}
+#box6 {
+    background-color: yellow;
+}
+#box7 {
+    background-color: darkviolet;
+}
+#box8 {
+    background-color: hotpink;
+}
+
+.container4 {
+    background-color: burlywood;
+    border: 5px solid black ;
+    margin: 2px;
+    padding: 2px;
+    display: flex; 
+    flex-flow: row wrap-reverse; 
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: aqua;
+}
+#box3 {
+    background-color: brown;
+}
+#box4 {
+    background-color: aquamarine;
+}
+#box5 {
+    background-color: darkgreen;
+}
+#box6 {
+    background-color: yellow;
+}
+#box7 {
+    background-color: darkviolet;
+}
+#box8 {
+    background-color: hotpink;
+}

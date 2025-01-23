@@ -1,0 +1,38 @@
+.container {
+    background-color: lightgoldenrodyellow;
+    border: 5px solid black ;
+    margin: 2px;
+    padding: 2px;
+    height: 1000px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color: lawngreen;
+}
+#box4 {
+    background-color:red ;
+}

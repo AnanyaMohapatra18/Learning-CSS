@@ -1,0 +1,80 @@
+.container1 {
+    background-color: lightpink;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    height: 500px;
+    display: flex; 
+    flex-direction: row; /* column wise bhi aise hoga */
+    justify-content: start;
+    
+    
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+    flex-shrink: 5; /* baki sbb box ke jagah ye jaldi shrink krega */
+    
+}
+#box2 {
+    background-color: red;
+    
+}
+#box3 {
+    background-color: green;
+    flex-shrink: 2;
+}
+#box4 {
+    background-color: orange;
+    
+}
+
+.container2 {
+    background-color: lightpink;
+    border: 3px solid black ;
+    margin: 3px;
+    padding: 2px;
+    height: 1000px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: start;
+    
+    
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+/* flex-grow krne se box baki sara space bhi occupy krr lega */
+#box1 {
+    background-color: blue;
+    flex-grow: 1;
+  
+}
+#box2 {
+    background-color: red;
+    flex-grow: 1;
+}
+#box3 {
+    background-color: green;
+    flex-grow: 1;
+}
+#box4 {
+    background-color: orange;
+    flex-grow: 4;
+}

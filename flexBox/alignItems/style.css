@@ -1,0 +1,44 @@
+.container1 {
+    background-color: lightskyblue;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    display: flex; 
+    height: 1000px;
+    flex-direction: row; 
+    /* flex-direction: column; */
+
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: end; */
+    /* align-items: stretch;   Box ki height hata dene se ye stretch hoga */
+
+
+    justify-content: center;
+    align-items: center;
+    /* To center the div horizontally and vertically */
+
+    
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color: lawngreen;
+}
+#box4 {
+    background-color:red ;
+}

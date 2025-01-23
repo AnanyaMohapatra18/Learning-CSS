@@ -1,0 +1,195 @@
+.container1 {
+    background-color: burlywood;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    display: flex; 
+    flex-direction: row; /* column wise bhi aise hoga */
+    justify-content: center;
+    
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: red;
+}
+#box3 {
+    background-color: green;
+}
+#box4 {
+    background-color: deeppink;
+}
+
+.container2 {
+    background-color: burlywood;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: red;
+}
+#box3 {
+    background-color: green;
+}
+#box4 {
+    background-color: deeppink;
+}
+
+.container3 {
+    background-color: burlywood;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: end;
+   
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: red;
+}
+#box3 {
+    background-color: green;
+}
+#box4 {
+    background-color: deeppink;
+}
+
+.container4 {
+    background-color: burlywood;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: red;
+}
+#box3 {
+    background-color: green;
+}
+#box4 {
+    background-color: deeppink;
+}
+
+.container5 {
+    background-color: burlywood;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: red;
+}
+#box3 {
+    background-color: green;
+}
+#box4 {
+    background-color: deeppink;
+}
+
+.container6 {
+    background-color: burlywood;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: red;
+}
+#box3 {
+    background-color: green;
+}
+#box4 {
+    background-color: deeppink;
+}

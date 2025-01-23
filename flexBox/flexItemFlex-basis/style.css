@@ -1,0 +1,39 @@
+.container1 {
+    background-color: lightpink;
+    border: 3px solid black ;
+    margin: 8px;
+    padding: 2px;
+    height: 500px;
+    display: flex; 
+    flex-direction: row; /* column wise bhi aise hoga */
+    justify-content: start;
+    
+    
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px black solid;
+
+}
+
+#box1 {
+    background-color: blue;
+    flex-basis: 400px; /* set dimensions */
+    
+}
+#box2 {
+    background-color: red;
+    
+}
+#box3 {
+    background-color: green;
+    flex-basis: 300px;
+}
+#box4 {
+    background-color: orange;
+    
+}
