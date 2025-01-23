@@ -1,0 +1,13 @@
+/* div {
+    display: inline; /* Usually div took all the space but we can use inline display to give only content space. */
+    /* background-color: aqua;  /* */
+
+  
+button {
+    display: block; /* Will took the full space of width */
+    
+} 
+
+div {
+    
+}
