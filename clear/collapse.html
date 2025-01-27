@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+        border: 4px red solid;
+        overflow: auto; /* 2 abhi ye krne se parent wala border collapse nhi krega aur jaise aata hai waise aayega*/
+        }
+
+        .item {
+            height: 200px;
+            width: 200px;
+            border: 1px black solid;
+            background-color: aqua;
+            float: left; /* 1 iska jo parent wala border hai wo collapse ho jayega*/
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+    </div>
+</body>
+</html>
