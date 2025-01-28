@@ -1,0 +1,62 @@
+div {
+    height: 200px;
+
+    width: 400px;
+
+    background-color: greenyellow;
+
+   /* border-width: 4px;
+    border-style: solid;
+    border-color: red; */
+    border: 4px solid blueviolet; /* we can write border like this /*
+
+    text-align: right; /* Idhar text-align use krne se content screen ke beech mai nhi aata hai
+                          jitna border hum seech krte hai ussi ke hisab se aata hai */
+
+    border-radius: 4px;
+
+ /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+    padding: 20px; /* Top Right Bottom Left se same padding apply hogi */
+    
+
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+    margin: 10px ; /* Top Right Bottom Left se same padding apply hogi */
+    
+}
+
+
+h1 {
+    height: 300px;
+
+    width: 300px;
+
+    background-color: pink;
+
+   /* border-width: 6px;
+    border-style: dashed;
+    border-color: darkblue; */
+    border: 6px dashed orangered;
+
+    text-align: center;
+
+    border-radius: 10%; /* To make a circle we can set radius to 50% if the height and width are same. */
+    /* padding-top: 2px;
+    padding-right: 6px;
+    padding-bottom: 9px;
+    padding-left: 11x; */
+    padding: 2px 6px 9px 11px; /* Top Right Bottom Left se hogi -->clock-wise */
+
+
+    /* margin-top: 10px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    margin-left: 25px; */
+    margin: 10px 12px 20px 25px; /* Top Right Bottom Left se hogi -->clock-wise */
+
+}
